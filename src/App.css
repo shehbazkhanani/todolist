@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Work+Sans:ital,wght@0,400;1,300;1,400&display=swap');
+
+* {
+  font-family: 'Josefin Sans';
+}
+
+.inp {
+  width: 50%;
+}
+
+.inputstyle {
+  width: 100%;
+}
+
+.list1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+ width: 50%;
+}
+
+.list2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+  .list2 {
+    font-size: 4vh !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .list2{
+    font-size: 1vh !important;
+  }
+  .emoj {
+    font-size:20px;
+  }
+  .inp {
+    font-size: 15px;
+  }
+}
+  
+@media only screen and (max-width: 800px) {
+  .list2 {
+    font-size: 28px !important;
+    align-items: center;
+  }
+  .emoj {
+    font-size: 20px;
+  }
+  .inp {
+    font-size: 25px;
+  }
+
+}
